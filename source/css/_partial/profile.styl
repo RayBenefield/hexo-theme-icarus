@@ -19,6 +19,8 @@
         border-bottom: none
 
 #profile
+    .profile-inner
+        box-shadow: depth-3
     column(profile-column)
     display: none
     @media mq-normal
@@ -26,7 +28,7 @@
     .inner
         @extend $block
         margin-top: block-margin
-        background: white
+        background: #424242
         .base-info
             #avatar
                 border-radius: 50%
